@@ -7,8 +7,8 @@ import org.junit.jupiter.api.Test;
 class GroupTest {
 
 	private Person person = new Person("G", 48);
-	private Person dad = new Person("R", 79);
-	private Person mom = new Person("R", 74);
+	private Person dad = new Person("Rahul", 79);
+	private Person mom = new Person("Radha", 74);
 	private Car car = new Car();
 	private PersonGroup family = new PersonGroup();
 
