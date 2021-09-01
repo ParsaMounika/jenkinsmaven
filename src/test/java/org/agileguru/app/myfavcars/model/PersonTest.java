@@ -7,8 +7,8 @@ import org.junit.jupiter.api.Test;
 
 class PersonTest {
 	
-	private Person person = new Person("Gurumoorthy", 48);
-	private Person dad = new Person("Raghupathy",79);
+	private Person person = new Person("G", 48);
+	private Person dad = new Person("Rahul",79);
 	private Person mom  = new Person("Radha",74);
 	private Car car = new Car();
 	
@@ -20,7 +20,7 @@ class PersonTest {
 		person.setCar(car);
 		car.setManufacturer("Honda");
 		
-		assertThat(person.getDad().getName()).isNotNull().isEqualTo("Raghupathy");
+		assertThat(person.getDad().getName()).isNotNull().isEqualTo("Rahul");
 		
 	}
 
